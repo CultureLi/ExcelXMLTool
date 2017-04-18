@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="guide_flow">
+    <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="9" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+      <Column ss:AutoFitWidth="0" ss:Width="75.75" />
+      <Column ss:AutoFitWidth="0" ss:Width="271.5" />
+      <Column ss:AutoFitWidth="0" ss:Width="312" />
+      <Column ss:AutoFitWidth="0" ss:Width="247.5" />
+      <Column ss:AutoFitWidth="0" ss:Width="496.5" />
+      <Column ss:AutoFitWidth="0" ss:Width="616.5" />
+      <Column ss:AutoFitWidth="0" ss:Width="251.25" />
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">指引流程序号</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">关联控件名称</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">控件组份序号（主要用于指定类似tab的标签或者列表子项等）</Data>
+          <Comment ss:Author="作者">
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
+              <B>
+                <Font html:Size="9" html:Color="#000000">作者:</Font>
+              </B>
+              <Font html:Size="9" html:Color="#000000">&#10;默认的按钮使用“-1”&#10;列表项内容需填写序号，从0开始。</Font>
+            </ss:Data>
+          </Comment>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">需要指定的列表项的子控件序号，不用的话配-1</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">1：切换tab页会终止指引链，2：存在则直接跳到对应节点，3：同时支持1、2，若不用配0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">指引内容</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">用以确定描角的指引特效的布局方式，不用配0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">停靠方位</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">类型</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">flowIndex</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ctrlName</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">index</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">subIndex</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sType</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">content</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">layoutType</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">anchor</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_hud.Func_skill</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  你可以升级技能了！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_skill_upgrade.level_up_btn_1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  点击&lt;span color:FFFF4B4B&gt;升级&lt;/span&gt;按钮即可提升技能等级，人物达到一定等级时均可进行提升！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_hud.Func_gaizao</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  30级开启装备强化！使用强化石进行装备强化，可大幅提升战斗能力！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_workshop.enhance_work_btn</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  点击全身强化按钮，系统自动对全身的装备部位进行强化！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_hud.Func_gaizao</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  40级开放了装备升星功能！对装备部位进行升星操作，可大幅提升战斗能力！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_workshop.tabControl</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  点击升星按钮进入装备升星界面</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">down</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">sn_workshop.star_work_btn</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">-1</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">  点击升星按钮，即可对选中的装备部位进行升星操作！</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="Number">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">up</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">tip</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+    </WorksheetOptions>
+  </Worksheet>
+  <Worksheet ss:Name="guide_trigger">
+    <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+      <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="98.25" />
+      <Column ss:AutoFitWidth="0" ss:Width="84.75" />
+      <Row ss:AutoFitHeight="0">
+        <Cell>
+          <Data ss:Type="String">触发类型</Data>
+        </Cell>
+        <Cell />
+        <Cell>
+          <Data ss:Type="String">指引流程序号</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">value</Data>
+        </Cell>
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">flowIndex</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">level</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">200</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">level</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">200</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0">
+        <Cell ss:StyleID="s62">
+          <Data ss:Type="String">level</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">200</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Visible>SheetHidden</Visible>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>
